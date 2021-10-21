@@ -1,9 +1,11 @@
 import './PhotoBox.css'
 
- export default () => {
-     return (
-         <div className='PhotoBox'>
-             <p>imagem</p>
-         </div>
-     )
- }
+function PhotoBox(){
+    return (
+        <div className='PhotoBox'>
+            <p>imagem</p>
+        </div>
+    )
+}
+
+export default PhotoBox
