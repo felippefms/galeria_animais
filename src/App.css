@@ -1,6 +1,5 @@
 .App {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -13,14 +12,11 @@ header{
   align-items: center;
 }
 
-.menuwrapper{
-  display: flex;
-}
-
 .menu{
   display: flex;
   background-color: rgb(0, 0, 0);
   justify-content: center;
+  height: fit-content;
 }
 
 .menu ul{
@@ -38,4 +34,13 @@ header{
 
 .menu ul li a:hover{
   background-color: rgb(99, 189, 111);
+}
+
+.content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  height: 600px;
 }
