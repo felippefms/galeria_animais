@@ -1,9 +1,10 @@
 import './PhotoBox.css'
+import Cachorro from '../imgs/cachorro.jpg'
 
 function PhotoBox(){
     return (
         <div className='PhotoBox'>
-            <img src="" alt="Imagem"/>
+            <img src={Cachorro} alt="Imagem"/>
         </div>
     )
 }

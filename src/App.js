@@ -11,20 +11,15 @@ function App() {
       </header>
         <nav className="menu">
           <ul>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
-            <li><a href='#'>OPTION</a></li>
+            <li><a href='#'>TERRESTRES</a></li>
+            <li><a href='#'>VOADORES</a></li>
+            <li><a href='#'>AQUÁTICOS</a></li>
           </ul>
         </nav>
+        <div className="Initial-Text">
+          <p>Bem-Vindo(a) ao projeto de galeria de imgagens feito interamente em ReactJS !<br/>O objeto do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
+        </div>
         <div className="content-wrapper">
-          <PhotoBox></PhotoBox>
-          <PhotoBox></PhotoBox>
-          <PhotoBox></PhotoBox>
           <PhotoBox></PhotoBox>
           <PhotoBox></PhotoBox>
           <PhotoBox></PhotoBox>

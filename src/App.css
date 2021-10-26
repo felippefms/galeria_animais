@@ -1,46 +1,64 @@
 .App {
   display: flex;
-  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  font-family: Helvetica;
 }
 
 header{
   display: flex;
-  width: 100vw;
-  justify-content: center;
-  background-color: lightblue;
+  color: #fff;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .menu{
   display: flex;
-  background-color: rgb(0, 0, 0);
   justify-content: center;
-  height: fit-content;
+  align-items: center;
+  margin: 50px 0 30px 0;
 }
 
 .menu ul{
+  display: flex;
   min-width: 300px;
-  text-align: center;
+}
+.menu ul li{
+  margin: 0 10px 0 10px;
 }
 
 .menu ul li a{
-  background-color: black;
-  text-decoration: none;
+  text-decoration: transparent;
   color: #fff;
   display: block;
   padding: 10px;
+  font-size: 1.2rem;
 }
 
 .menu ul li a:hover{
-  background-color: rgb(99, 189, 111);
+  text-decoration: 3px underline;
+  transition: 1s;
 }
 
 .content-wrapper{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Initial-Text{
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 1500px;
-  height: 600px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
 }
