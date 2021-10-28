@@ -1,9 +1,9 @@
-import './PhotoBox.css'
+import './PhotoBox.css';
 
 function PhotoBox(props){
     return (
         <div className='PhotoBox'>
-            <img src={props.Imagem}/>
+            <img src={props.Imagem} alt="Imagem"/>
         </div>
     )
 }
