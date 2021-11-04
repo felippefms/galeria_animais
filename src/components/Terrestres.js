@@ -1,8 +1,25 @@
 import React from 'react';
+import PhotoBox from './PhotoBox';
 
 function Terrestres(){
     return(
-        <h1>Terrestres</h1>
+        <div className='content-wrapper'>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+            <PhotoBox></PhotoBox>
+        </div>
     )
 }
 

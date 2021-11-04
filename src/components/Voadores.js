@@ -1,8 +1,25 @@
 import React from 'react';
+import PhotoBox from './PhotoBox';
 
 function Voadores(){
     return(
-        <h1>Voadores</h1>
+    <div className='content-wrapper'>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+        <PhotoBox></PhotoBox>
+    </div>
     )
 }
 

@@ -24,41 +24,6 @@ header h1{
   text-align: center;
 }
 
-.menu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0 30px 0;
-}
-
-Link to{
-  background-color: aqua;
-}
-
-/*
-.menu ul{
-  display: flex;
-  min-width: 300px;
-}
-.menu ul li{
-  margin: 0 10px 0 10px;
-}
-
-.menu ul li a{
-  text-decoration: transparent;
-  color: #fff;
-  display: block;
-  padding: 10px;
-  font-size: 1.2rem;
-}
-
-.menu ul li a:hover{
-  text-decoration: 3px underline;
-  transition: 1s;
-}
-
-*/
-
 .content-wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -73,4 +38,35 @@ Link to{
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 30px 0;
+}
+
+.menu .menu-link{
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+.menu .menu-link:hover{
+  color: tomato;
+}
+
+@media (max-width: 700px)
+{
+  .menu{
+    flex-direction: column;
+    margin: 2px 0;
+   }
+
+   .menu .menu-link{
+    padding: 10px 0;
+   }
 }
