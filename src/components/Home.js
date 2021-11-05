@@ -14,9 +14,9 @@ function Home() {
             </div>
 
             <div className="content-wrapper">
-                <PhotoBox Imagem={Cachorro}></PhotoBox>
-                <PhotoBox Imagem={Golfinho}></PhotoBox>
-                <PhotoBox Imagem={Papagaio}></PhotoBox>
+                <PhotoBox Imagem={Cachorro} Caption={'Seja Bem-Vindo !'}></PhotoBox>
+                <PhotoBox Imagem={Golfinho} Caption={'Basta clicar em uma imagem.'}></PhotoBox>
+                <PhotoBox Imagem={Papagaio} Caption={'Escolha uma categoria acima.'}></PhotoBox>
             </div>
         </div>
     )
