@@ -10,7 +10,7 @@ function Home() {
     return(
         <div>
             <div className="Initial-Text">
-                <p>Bem-Vindo(a) ao projeto de galeria de imgagens feito interamente em ReactJS !<br/>O objeto do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
+                <p>Bem-Vindo(a) ao projeto de galeria de imagens feito interamente em ReactJS !<br/>O objeto do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
             </div>
 
             <div className="content-wrapper">
