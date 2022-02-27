@@ -11,13 +11,12 @@ function Home() {
         <div>
             <div className="Initial-Text">
                 <p>Bem-Vindo(a) ao projeto de galeria de imagens feito interamente em ReactJS !<br/>O objeto do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
-                <p>APAGAR</p>
             </div>
 
             <div className="content-wrapper">
-                <PhotoBox Imagem={Cachorro} Caption={'Seja Bem-Vindo !'}></PhotoBox>
-                <PhotoBox Imagem={Golfinho} Caption={'Basta clicar em uma imagem.'}></PhotoBox>
-                <PhotoBox Imagem={Papagaio} Caption={'Escolha uma categoria acima.'}></PhotoBox>
+                <PhotoBox imagem={Cachorro} Caption={'Seja Bem-Vindo !'}></PhotoBox>
+                <PhotoBox imagem={Golfinho} Caption={'Basta clicar em uma imagem.'}></PhotoBox>
+                <PhotoBox imagem={Papagaio} Caption={'Escolha uma categoria acima.'}></PhotoBox>
             </div>
         </div>
     )
