@@ -5,14 +5,12 @@
     align-items: center;
     width: 400px;
     height: 300px;
-    margin: 20px 40px;
     border: 8px solid rgba(176, 176, 201, 0.74);
+    margin: 20px 0 20px 0;
 }
 
 .PhotoBox:hover{
     border: 8px solid rgb(255, 255, 255);
-    transform: scale(1.1);
-    transition: 0.4s;
     cursor: pointer;
 }
 

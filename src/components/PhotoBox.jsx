@@ -17,7 +17,7 @@ function PhotoBox(props){
 
     return (
         <>
-            <button onClick={openModal}>
+            <button className='ImgBtn' onClick={openModal}>
                 <div className='PhotoBox'>
                     <img src={props.imagem} alt="Imagem"/>
                     <p className='Photo-Text'>{props.Caption}</p>
