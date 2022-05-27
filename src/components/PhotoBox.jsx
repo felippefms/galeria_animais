@@ -22,9 +22,9 @@ function PhotoBox(props){
                 <p className='Photo-Text'>{props.Caption}</p>
             </div>
         <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
-        <p>nome: {props.nome}</p>
-        <p>tipo: {props.tipo}</p>
-        <img src={props.imagem} alt='imagem'></img>
+            <p>Nome: {props.nome}</p>
+            <p>Tipo: {props.tipo}</p>
+            <img src={props.imagem} alt='imagem'></img>
         </Modal>
         </>
     )
