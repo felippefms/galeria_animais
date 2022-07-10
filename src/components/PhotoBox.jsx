@@ -21,11 +21,11 @@ function PhotoBox(props){
                 <img src={props.imagem} alt="Imagem"/>
                 <p className='Photo-Text'>{props.Caption}</p>
             </div>
-        <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
-            <p>Nome: {props.nome}</p>
-            <p>Tipo: {props.tipo}</p>
-            <img src={props.imagem} alt='imagem'></img>
-        </Modal>
+            <Modal overlayClassName="Overlay" isOpen={modalIsOpen} onRequestClose={closeModal}>
+                <p>Nome: {props.nome}</p>
+                <p>Tipo: {props.tipo}</p>
+                <img src={props.imagem} alt='imagem'></img>
+            </Modal>           
         </>
     )
 }
