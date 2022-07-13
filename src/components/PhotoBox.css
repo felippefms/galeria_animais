@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .PhotoBox{
     display: flex;
     position: relative;
@@ -29,18 +31,33 @@ img{
     font-size: 1.3rem;
     user-select: none;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.Modal {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    right: 40px;
-    bottom: 40px;
-    background-color: papayawhip;
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(176, 176, 201, 0.74);
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .Overlay {
+  .modal-content{
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgba(176, 176, 201, 0.74);
+    border: 3px solid black;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+
     display: flex;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }

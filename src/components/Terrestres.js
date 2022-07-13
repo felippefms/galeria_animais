@@ -5,7 +5,7 @@ import cachorro from'../imgs/cachorro.jpg';
 function Terrestres(){
     return(
         <div className='content-wrapper'>
-            <PhotoBox imagem={cachorro} nome='cachorro' tipo='mamifero'></PhotoBox>
+            <PhotoBox imagem={cachorro} nome='Cachorro' nomecien='Canis lupus familiaris' tipo='Mamifero' anos='13'></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>

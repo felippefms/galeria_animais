@@ -14,9 +14,9 @@ function Home() {
             </div>
 
             <div className="content-wrapper">
-                <PhotoBox imagem={Cachorro} Caption={'Seja Bem-Vindo !'}></PhotoBox>
+                <PhotoBox imagem={Cachorro} Caption={'Seja Bem-Vindo !'} nome='Cachorro' nomecien='Canis lupus familiaris' tipo='Mamifero' anos='13'></PhotoBox>
                 <PhotoBox imagem={Golfinho} Caption={'Basta clicar em uma imagem.'}></PhotoBox>
-                <PhotoBox imagem={Papagaio} Caption={'Escolha uma categoria acima.'}></PhotoBox>
+                <PhotoBox imagem={Papagaio} Caption={'Escolha uma categoria acima.'} nome='Arara' nomecien='Ara chloropterus' tipo='Ave' anos='60'></PhotoBox>
             </div>
         </div>
     )

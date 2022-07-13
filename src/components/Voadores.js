@@ -1,5 +1,6 @@
 import React from 'react';
 import PhotoBox from './PhotoBox';
+import papagaio from '../imgs/papagaio.jpg'
 
 function Voadores(){
     return(
@@ -12,7 +13,7 @@ function Voadores(){
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
-        <PhotoBox></PhotoBox>
+        <PhotoBox imagem={papagaio} nome='Arara' nomecien='Ara chloropterus' tipo='Ave' anos='60'></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
