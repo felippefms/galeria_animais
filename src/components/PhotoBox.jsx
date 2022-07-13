@@ -24,7 +24,7 @@ function PhotoBox(props){
             <Modal overlayClassName="modal-overlay" isOpen={modalIsOpen} onRequestClose={closeModal} className="modal-content">
                 <p>Nome: {props.nome}</p>
                 <p>Nome Científico:{props.nomecien}</p>
-                <p>Tipo: {props.tipo}</p>
+                <p>Classe: {props.classe}</p>
                 <p>Estimativa de Vida: {props.anos} Anos</p>
                 <img src={props.imagem} alt='imagem'></img>
             </Modal>           

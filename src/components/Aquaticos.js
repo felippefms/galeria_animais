@@ -12,7 +12,7 @@ function Aquaticos(){
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
-            <PhotoBox imagem={golfinho} nome='Golfinho' nomecien='Delphinus delphis' tipo='Mamifero' anos='30'></PhotoBox>
+            <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>

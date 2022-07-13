@@ -13,7 +13,7 @@ function Voadores(){
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
-        <PhotoBox imagem={papagaio} nome='Arara' nomecien='Ara chloropterus' tipo='Ave' anos='60'></PhotoBox>
+        <PhotoBox imagem={papagaio} nome=' Arara' nomecien=' Ara chloropterus' classe=' Ave' anos='60'></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>
         <PhotoBox></PhotoBox>

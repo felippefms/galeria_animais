@@ -14,6 +14,7 @@
 .PhotoBox:hover{
     border: 8px solid rgb(255, 255, 255);
     cursor: pointer;
+    transition: 0.7s;
 }
 
 img{
@@ -40,7 +41,7 @@ img{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(176, 176, 201, 0.74);
+    background-color: rgba(116, 116, 126, 0.74);
     overflow: hidden;
 
     display: flex;
@@ -51,7 +52,7 @@ img{
   .modal-content{
     width: 90%;
     max-width: 1200px;
-    background-color: rgba(176, 176, 201, 0.74);
+    background-color: rgb(235, 235, 252);
     border: 3px solid black;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
