@@ -8,7 +8,7 @@ import Papagaio from '../imgs/papagaio.jpg';
 
 function Home() {
     return(
-        <div>
+        <div className='HomeWrapper'>
             <div className="Initial-Text">
                 <p>Bem-Vindo(a) ao projeto de galeria de imagens feito interamente em ReactJS !<br/>O objeto do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
             </div>

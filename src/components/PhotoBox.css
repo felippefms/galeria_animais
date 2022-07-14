@@ -41,7 +41,7 @@ img{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(116, 116, 126, 0.74);
+    background-color: rgba(43, 43, 44, 0.904);
     overflow: hidden;
 
     display: flex;
@@ -54,6 +54,7 @@ img{
     max-width: 1200px;
     background-color: rgb(235, 235, 252);
     border: 3px solid black;
+    border-radius: 8px;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
 
