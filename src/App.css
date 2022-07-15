@@ -4,12 +4,15 @@
   height: 100vh;
   flex-direction: column;
   /*background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);*/
+  overflow-x: hidden;
+  font-family: Helvetica;
+}
+
+body{
   background-image: url('./imgs/home.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
-  font-family: Helvetica;
 }
 
 header{

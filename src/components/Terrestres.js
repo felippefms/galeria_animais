@@ -6,7 +6,6 @@ import girafa from'../imgs/girafa.jpg';
 import leao from'../imgs/leao.jpg';
 import gato from'../imgs/gato.jpg';
 
-
 function Terrestres(){
     return(
         <div className='content-wrapper'>
