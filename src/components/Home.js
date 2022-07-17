@@ -5,6 +5,7 @@ import Cachorro from '../imgs/cachorro.jpg';
 import Golfinho from '../imgs/golfinho.jpg';
 import Papagaio from '../imgs/papagaio.jpg';
 
+import './Home.css';
 
 function Home() {
     return(
