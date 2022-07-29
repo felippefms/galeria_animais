@@ -1,0 +1,7 @@
+#Voadores-Wrapper{
+    background-image: url('../imgs/voadoresbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}

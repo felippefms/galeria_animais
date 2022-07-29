@@ -1,0 +1,7 @@
+#TerrestresWrapper{
+    background-image: url('../imgs/terrestresbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}

@@ -6,8 +6,13 @@ import girafa from'../imgs/girafa.jpg';
 import leao from'../imgs/leao.jpg';
 import gato from'../imgs/gato.jpg';
 
+import './terrestres.css';
+import Header from './Header';
+
 function Terrestres(){
     return(
+        <div id='TerrestresWrapper'>
+        <Header/>
         <div className='content-wrapper'>
             <PhotoBox imagem={girafa} nome=' Girafa' nomecien=' Giraffa camelopardalis' classe=' Mamifero' anos='33'></PhotoBox>
             <PhotoBox imagem={leao} nome=' Leão' nomecien=' Panthera leo' classe=' Mamifero' anos='16'></PhotoBox>
@@ -25,6 +30,7 @@ function Terrestres(){
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
+        </div>
         </div>
     )
 }
