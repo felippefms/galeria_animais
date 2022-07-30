@@ -16,7 +16,7 @@ function Terrestres(){
         <div className='content-wrapper'>
             <PhotoBox imagem={girafa} nome=' Girafa' nomecien=' Giraffa camelopardalis' classe=' Mamifero' anos='33'></PhotoBox>
             <PhotoBox imagem={leao} nome=' Leão' nomecien=' Panthera leo' classe=' Mamifero' anos='16'></PhotoBox>
-            <PhotoBox imagem={gato} nome=' Gato' nomecien=' Felis catus' classe=' Mamifero' anos='14'></PhotoBox>
+            <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
@@ -27,7 +27,7 @@ function Terrestres(){
             <PhotoBox></PhotoBox>
             <PhotoBox imagem={cachorro} nome=' Cachorro' nomecien=' Canis lupus familiaris' classe=' Mamifero' anos='13'></PhotoBox>
             <PhotoBox></PhotoBox>
-            <PhotoBox></PhotoBox>
+            <PhotoBox imagem={gato} nome=' Gato' nomecien=' Felis catus' classe=' Mamifero' anos='14'></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
         </div>
