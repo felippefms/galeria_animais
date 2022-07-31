@@ -13,7 +13,7 @@ function Home() {
         <div className='HomeWrapper'>
             <Header></Header>
             <div className="content-wrapper">
-                <PhotoBox imagem={Cachorro} Caption={'Seja Bem-Vindo !'} nome='Cachorro' nomecien=' Canis lupus familiaris' classe=' Mamifero' anos='13'></PhotoBox>
+                <PhotoBox imagem={Cachorro} Caption={'Seja Bem-Vindo !'} nome='Cachorro' nomecien='Canis lupus familiaris' classe=' Mamifero' anos='13'></PhotoBox>
                 <PhotoBox imagem={Papagaio} Caption={'Basta clicar em uma imagem.'} nome='Arara' nomecien=' Ara chloropterus' classe=' Ave' anos='60'></PhotoBox>
                 <PhotoBox imagem={Golfinho} Caption={'Escolha uma categoria acima.'} nome='Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
             </div>
