@@ -8,6 +8,7 @@ import aguia from '../imgs/aguia.jpg';
 import beijaflor from '../imgs/beijaflor.jpg';
 import cegonha from '../imgs/cegonha.jpg';
 import gaivota from '../imgs/gaivota.jpg';
+import arara from '../imgs/arara.jpg';
 
 function Voadores(){
     return(
@@ -17,7 +18,7 @@ function Voadores(){
             <PhotoBox imagem={beijaflor} nome=' Beija-Flor' nomecien=' Trochilidae' classe=' Ave' anos='4'></PhotoBox>
             <PhotoBox imagem={cegonha} nome=' Cegonha' nomecien=' Ciconia' classe=' Ave' anos='30'></PhotoBox>
             <PhotoBox imagem={gaivota} nome=' Gaivota' nomecien=' Larus dominicanus' classe=' Ave' anos='30'></PhotoBox>
-            <PhotoBox></PhotoBox>
+            <PhotoBox imagem={arara} nome=' Papagaio' nomecien=' Amazona aestiva' classe=' Ave' anos='60'></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
