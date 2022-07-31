@@ -14,7 +14,7 @@ function PhotoBox(props){
     function closeModal() {
         setIsOpen(false);
     }
-
+    
     return (
         <>
             <div className='PhotoBox' onClick={openModal}>
@@ -26,7 +26,7 @@ function PhotoBox(props){
                 <p>Nome Científico:{props.nomecien}</p>
                 <p>Classe: {props.classe}</p>
                 <p>Estimativa de Vida: {props.anos} Anos</p>
-                <img src={props.imagem} alt='imagem'></img>
+                <img src={props.imagem} alt='imagem' className='fullscimg'></img>
             </Modal>           
         </>
     )

@@ -9,6 +9,7 @@
     height: 300px;
     border: 8px solid rgba(176, 176, 201, 0.74);
     margin: 20px 0 20px 0;
+    
 }
 
 .PhotoBox:hover{
@@ -20,7 +21,6 @@
 img{
     width: 100%;
     height: 100%;
-    
 }
 
 .Photo-Text{
@@ -34,6 +34,7 @@ img{
     user-select: none;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .modal-overlay {
@@ -50,16 +51,51 @@ img{
   }
 
   .modal-content{
-    width: 90%;
-    max-width: 1000px;
     background-color: rgb(235, 235, 252);
-    border: 3px solid black;
-    border-radius: 8px;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 80vw;
+    max-height: 90vh;
+    border-radius: 8px;
   }
+
+  .fullscimg{
+    max-width: 80vw;
+    max-height: 90vh;
+    border-radius: 0 0 8px 8px;
+    border: 2px solid black;
+  }
+
+  @media (max-width: 700px)
+{
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(43, 43, 44, 0.904);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    
+      .modal-content{
+        background-color: rgb(235, 235, 252);
+        
+        border-radius: 8px;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+}
