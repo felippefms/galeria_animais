@@ -8,6 +8,7 @@ import gato from'../imgs/gato.jpg';
 import zebra from '../imgs/zebra.jpg';
 import elefante from '../imgs/elefante.jpg';
 
+
 import './terrestres.css';
 import Header from './Header';
 
