@@ -7,7 +7,8 @@ import leao from'../imgs/leao.jpg';
 import gato from'../imgs/gato.jpg';
 import zebra from '../imgs/zebra.jpg';
 import elefante from '../imgs/elefante.jpg';
-
+import urso from '../imgs/urso.jpg';
+import iguana from '../imgs/iguana.jpg';
 
 import './terrestres.css';
 import Header from './Header';
@@ -21,8 +22,8 @@ function Terrestres(){
             <PhotoBox imagem={leao} nome=' Leão' nomecien=' Panthera leo' classe=' Mamifero' anos='16'></PhotoBox>
             <PhotoBox imagem={zebra} nome=' Zebra' nomecien=' Equus zebra' classe=' Mamifero' anos='20'></PhotoBox>
             <PhotoBox imagem={elefante} nome=' Elefante' nomecien=' Loxodonta' classe=' Mamifero' anos='60'></PhotoBox>
-            <PhotoBox></PhotoBox>
-            <PhotoBox></PhotoBox>
+            <PhotoBox imagem={urso} nome=' Urso' nomecien=' Ursidae' classe=' Mamifero' anos='25'></PhotoBox>
+            <PhotoBox imagem={iguana} nome=' Iguana' nomecien=' Iguana' classe=' Mamifero' anos='15'></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
             <PhotoBox></PhotoBox>
