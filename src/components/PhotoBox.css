@@ -67,6 +67,7 @@ img{
     height: 30px;
     top: 20px;
     right: 30px;
+    color: rgb(240, 255, 255);
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     font-size: 30px;
@@ -74,11 +75,11 @@ img{
   }
 
   #closebtn:hover{
-    color: hwb(180 94% 0%);
+    color: rgba(0, 0, 0, 0.795);
   }
 
   .fullscimg{
-    max-width: 80vw;
+    max-width: 90vw;
     max-height: 90vh;
     border-radius: 0 0 8px 8px;
     border: 2px solid black;
@@ -107,8 +108,21 @@ img{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        max-width: 80vw;
+        max-width: 90vw;
         max-height: 90vh;
         border-radius: 8px;
+      }
+
+      #closebtn{
+        position: fixed;
+        width: 45px;
+        height: 30px;
+        top: 190px;
+        right: 20px;
+        color: rgb(240, 255, 255);
+        background-color: rgba(0, 0, 0, 0);
+        border: 0;
+        font-size: 30px;
+        transition: color 400ms;
       }
 }
