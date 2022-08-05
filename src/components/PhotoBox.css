@@ -72,6 +72,7 @@ img{
     border: 0;
     font-size: 30px;
     transition: color 400ms;
+    cursor: pointer;
   }
 
   #closebtn:hover{
