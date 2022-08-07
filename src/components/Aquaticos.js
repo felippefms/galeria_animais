@@ -26,7 +26,7 @@ function Aquaticos(){
                 <PhotoBox imagem={tartaruga} nome=' Tartaruga' nomecien=' Testudines' classe=' Ovíparo' anos='100'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={sweetlips} nome=' Sweetlips' nomecien=' Plectorhinchus lineatus' classe=' Ovíparo' anos='4'></PhotoBox>
-                <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
+                <PhotoBox imagem={golfinho} nome=' Demônio azul oriental' nomecien=' Paraplesiops bleekeri' classe=' Ovíparo' anos='4'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
