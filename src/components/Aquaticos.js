@@ -8,6 +8,10 @@ import baleia from '../imgs/baleia.jpg';
 import golfinho from '../imgs/golfinho.jpg';
 import polvo from '../imgs/polvo.jpg';
 import carangueijo from '../imgs/carangueijo.jpg';
+import peixepalhaco from '../imgs/peixepalhaco.png';
+import garoupa from '../imgs/garoupa.jpg';
+import tartaruga from '../imgs/tartaruga.jpg';
+import sweetlips from '../imgs/sweetlips.jpg';
 
 function Aquaticos(){
     return(
@@ -17,11 +21,11 @@ function Aquaticos(){
                 <PhotoBox imagem={baleia} nome=' Baleia Orca' nomecien=' Orcinus orca' classe=' Mamifero' anos='40'></PhotoBox>
                 <PhotoBox imagem={polvo} nome=' Polvo' nomecien=' Octopoda' classe=' Molusco' anos='4'></PhotoBox>
                 <PhotoBox imagem={carangueijo} nome=' Carangueijo' nomecien=' Brachyura' classe=' Crustáceo' anos='4'></PhotoBox>
+                <PhotoBox imagem={peixepalhaco} nome=' Peixe-Palhaço' nomecien=' Amphiprioninae' classe=' Ovíparo' anos='8'></PhotoBox>
+                <PhotoBox imagem={garoupa} nome=' Garoupa' nomecien=' Epinephelinae' classe=' Ovíparo' anos='10'></PhotoBox>
+                <PhotoBox imagem={tartaruga} nome=' Tartaruga' nomecien=' Testudines' classe=' Ovíparo' anos='100'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
-                <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
-                <PhotoBox></PhotoBox>
-                <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
-                <PhotoBox></PhotoBox>
+                <PhotoBox imagem={sweetlips} nome=' Sweetlips' nomecien=' Plectorhinchus lineatus' classe=' Ovíparo' anos='4'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
