@@ -29,18 +29,18 @@ function Aquaticos(){
                 <PhotoBox imagem={baleia} nome=' Baleia Orca' nomecien=' Orcinus orca' classe=' Mamifero' anos='40'></PhotoBox>
                 <PhotoBox imagem={polvo} nome=' Polvo' nomecien=' Octopoda' classe=' Molusco' anos='4'></PhotoBox>
                 <PhotoBox imagem={carangueijo} nome=' Carangueijo' nomecien=' Brachyura' classe=' Crustáceo' anos='4'></PhotoBox>
-                <PhotoBox imagem={peixepalhaco} nome=' Peixe-Palhaço' nomecien=' Amphiprioninae' classe=' Ovíparo' anos='8'></PhotoBox>
-                <PhotoBox imagem={garoupa} nome=' Garoupa' nomecien=' Epinephelinae' classe=' Ovíparo' anos='10'></PhotoBox>
-                <PhotoBox imagem={tartaruga} nome=' Tartaruga' nomecien=' Testudines' classe=' Ovíparo' anos='100'></PhotoBox>
+                <PhotoBox imagem={peixepalhaco} nome=' Peixe-Palhaço' nomecien=' Amphiprioninae' classe=' Peixe' anos='8'></PhotoBox>
+                <PhotoBox imagem={garoupa} nome=' Garoupa' nomecien=' Epinephelinae' classe=' Peixe' anos='10'></PhotoBox>
+                <PhotoBox imagem={tartaruga} nome=' Tartaruga' nomecien=' Testudines' classe=' Réptil' anos='100'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
-                <PhotoBox imagem={sweetlips} nome=' Sweetlips' nomecien=' Plectorhinchus lineatus' classe=' Ovíparo' anos='4'></PhotoBox>
-                <PhotoBox imagem={peixedemonio} nome=' Demônio azul oriental' nomecien=' Paraplesiops bleekeri' classe=' Ovíparo' anos='4'></PhotoBox>
-                <PhotoBox imagem={andinoacara} nome=' Terror Verde' nomecien=' Andinoacara rivulatus' classe=' Ovíparo' anos='8'></PhotoBox>
-                <PhotoBox imagem={peixeleao} nome=' Peixe-Leão' nomecien=' Pterois' classe=' Ovíparo' anos='15'></PhotoBox>
-                <PhotoBox imagem={arraia} nome=' Arraia-Uge-Manchas-Azuis' nomecien=' Taeniura lymma' classe=' Ovíparo' anos='15'></PhotoBox>
-                <PhotoBox imagem={peixebalao} nome=' Peixe-Balão-Estrelado' nomecien=' Arothron stellatus' classe=' Ovíparo' anos='14'></PhotoBox>
-                <PhotoBox imagem={tubarao} nome=' Tubarão Branco' nomecien=' Carcharodon carcharias' classe=' Ovíparo' anos='70'></PhotoBox>
-                <PhotoBox imagem={tabaraobaleia} nome=' Tubarão Baleia' nomecien=' Rhincodon typus' classe=' Ovíparo' anos='30'></PhotoBox>
+                <PhotoBox imagem={sweetlips} nome=' Sweetlips' nomecien=' Plectorhinchus lineatus' classe=' Peixe' anos='4'></PhotoBox>
+                <PhotoBox imagem={peixedemonio} nome=' Demônio azul oriental' nomecien=' Paraplesiops bleekeri' classe=' Peixe' anos='4'></PhotoBox>
+                <PhotoBox imagem={andinoacara} nome=' Terror Verde' nomecien=' Andinoacara rivulatus' classe=' Peixe' anos='8'></PhotoBox>
+                <PhotoBox imagem={peixeleao} nome=' Peixe-Leão' nomecien=' Pterois' classe=' Peixe' anos='15'></PhotoBox>
+                <PhotoBox imagem={arraia} nome=' Arraia-Uge-Manchas-Azuis' nomecien=' Taeniura lymma' classe=' Peixe' anos='15'></PhotoBox>
+                <PhotoBox imagem={peixebalao} nome=' Peixe-Balão-Estrelado' nomecien=' Arothron stellatus' classe=' Peixe' anos='14'></PhotoBox>
+                <PhotoBox imagem={tubarao} nome=' Tubarão Branco' nomecien=' Carcharodon carcharias' classe=' Peixe' anos='70'></PhotoBox>
+                <PhotoBox imagem={tabaraobaleia} nome=' Tubarão Baleia' nomecien=' Rhincodon typus' classe=' Peixe' anos='30'></PhotoBox>
                 <PhotoBox imagem={baleiacaxalote} nome=' Baleia Cachalote' nomecien=' Physeter macrocephalus' classe=' Mamifero' anos='70'></PhotoBox>
             </div>
         </div>
