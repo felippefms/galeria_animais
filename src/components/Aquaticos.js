@@ -17,6 +17,7 @@ import andinoacara from '../imgs/andinoacara.jpg';
 import peixeleao from '../imgs/peixeleao.jpg';
 import arraia from '../imgs/arraia.jpg';
 import peixebalao from '../imgs/peixebalao.jpg';
+import tubarao from '../imgs/tubarao.jpg';
 
 function Aquaticos(){
     return(
@@ -36,7 +37,7 @@ function Aquaticos(){
                 <PhotoBox imagem={peixeleao} nome=' Peixe-Leão' nomecien=' Pterois' classe=' Ovíparo' anos='15'></PhotoBox>
                 <PhotoBox imagem={arraia} nome=' Arraia-Uge-Manchas-Azuis' nomecien=' Taeniura lymma' classe=' Ovíparo' anos='15'></PhotoBox>
                 <PhotoBox imagem={peixebalao} nome=' Peixe-Balão-Estrelado' nomecien=' Arothron stellatus' classe=' Ovíparo' anos='14'></PhotoBox>
-                <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
+                <PhotoBox imagem={tubarao} nome=' Tubarão Branco' nomecien=' Carcharodon carcharias' classe=' Ovíparo' anos='70'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
                 <PhotoBox imagem={golfinho} nome=' Golfinho' nomecien=' Delphinus delphis' classe=' Mamifero' anos='30'></PhotoBox>
             </div>
