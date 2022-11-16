@@ -12,10 +12,10 @@ function App() {
   <Router>
     <div className="App">
       <Switch>
-        <Route path='/galeria_animais' exact component={Home}/>
-        <Route path='/galeria_animais/Terrestres' component={Terrestres}/>
-        <Route path='/galeria_animais/Voadores' component={Voadores}/>
-        <Route path='/galeria_animais/Aquaticos' component={Aquaticos}/>
+        <Route path='/Home' exact component={Home}/>
+        <Route path='/Terrestres' component={Terrestres}/>
+        <Route path='/Voadores' component={Voadores}/>
+        <Route path='/Aquaticos' component={Aquaticos}/>
       </Switch>
   </div>
   </Router>
