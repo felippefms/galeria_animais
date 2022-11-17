@@ -16,7 +16,7 @@ function Header(){
             </div>
 
             <nav className='menu'>
-                <Link to='/' className='menu-link'>HOME</Link>
+                <Link to='/Home' className='menu-link'>PÁGINA INICIAL</Link>
                 <Link to='/Terrestres' className='menu-link'>TERRESTRES</Link>
                 <Link to='/Voadores' className='menu-link'>VOADORES</Link>
                 <Link to='/Aquaticos' className='menu-link'>AQUÁTICOS</Link>
