@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home';
@@ -9,16 +9,14 @@ import Aquaticos from './components/Aquaticos';
 function App() {
   return (
   <>
-  <Router>
-    <div className="App">
-      <Switch>
-        <Route path='/' exact component={Home}/>
-        <Route path='/Terrestres' component={Terrestres}/>
-        <Route path='/Voadores' component={Voadores}/>
-        <Route path='/Aquaticos' component={Aquaticos}/>
-      </Switch>
-  </div>
-  </Router>
+      <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Terrestres" element={<Terrestres />} />
+            <Route path="/Voadores" element={<Voadores />} />
+            <Route path="/Aquaticos" element={<Aquaticos />} />
+          </Routes>
+      </div>
   </>
   );
 }
