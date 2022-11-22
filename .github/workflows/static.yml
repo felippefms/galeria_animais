@@ -32,4 +32,4 @@ jobs:
           
       - name: Deploy
         working-directory: .
-        run: npm build
+        run: npm run build
