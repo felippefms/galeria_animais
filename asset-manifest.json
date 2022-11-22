@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/galeria_animais/static/css/main.1c2d9681.chunk.css",
-    "main.js": "/galeria_animais/static/js/main.f44f1c7f.chunk.js",
-    "main.js.map": "/galeria_animais/static/js/main.f44f1c7f.chunk.js.map",
+    "main.js": "/galeria_animais/static/js/main.98a7298c.chunk.js",
+    "main.js.map": "/galeria_animais/static/js/main.98a7298c.chunk.js.map",
     "runtime-main.js": "/galeria_animais/static/js/runtime-main.f0691548.js",
     "runtime-main.js.map": "/galeria_animais/static/js/runtime-main.f0691548.js.map",
-    "static/js/2.064431d4.chunk.js": "/galeria_animais/static/js/2.064431d4.chunk.js",
-    "static/js/2.064431d4.chunk.js.map": "/galeria_animais/static/js/2.064431d4.chunk.js.map",
+    "static/js/2.a425df1d.chunk.js": "/galeria_animais/static/js/2.a425df1d.chunk.js",
+    "static/js/2.a425df1d.chunk.js.map": "/galeria_animais/static/js/2.a425df1d.chunk.js.map",
     "index.html": "/galeria_animais/index.html",
     "static/css/main.1c2d9681.chunk.css.map": "/galeria_animais/static/css/main.1c2d9681.chunk.css.map",
-    "static/js/2.064431d4.chunk.js.LICENSE.txt": "/galeria_animais/static/js/2.064431d4.chunk.js.LICENSE.txt",
+    "static/js/2.a425df1d.chunk.js.LICENSE.txt": "/galeria_animais/static/js/2.a425df1d.chunk.js.LICENSE.txt",
     "static/media/aguia.781cfba7.jpg": "/galeria_animais/static/media/aguia.781cfba7.jpg",
     "static/media/andinoacara.b46185fa.jpg": "/galeria_animais/static/media/andinoacara.b46185fa.jpg",
     "static/media/Aquaticos.css": "/galeria_animais/static/media/aquaticosbg.208ba293.jpg",
@@ -65,8 +65,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f0691548.js",
-    "static/js/2.064431d4.chunk.js",
+    "static/js/2.a425df1d.chunk.js",
     "static/css/main.1c2d9681.chunk.css",
-    "static/js/main.f44f1c7f.chunk.js"
+    "static/js/main.98a7298c.chunk.js"
   ]
 }
