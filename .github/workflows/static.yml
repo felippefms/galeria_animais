@@ -27,9 +27,6 @@ jobs:
         with:
           node-version: 18.x
           
-      - name: Install Dependencies
-        run: npm install
-          
-      - name: Deploy
-        working-directory: .
-        run: npm run build
+      - name: Install Dependencies & Build
+        run: npm ci
+             npm run build
