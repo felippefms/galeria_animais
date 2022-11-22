@@ -12,7 +12,7 @@ function Header(){
             </header>
 
             <div className="Initial-Text">
-                <p>Bem-Vindo(a) ao projeto de galeria de imagen feito interamente em ReactJS !<br/>O objetivo do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
+                <p>Bem-Vindo(a) ao projeto de galeria de imagens feito interamente em ReactJS !<br/>O objetivo do projeto é fazer uma bela galeria de imagens em uma aplicação web responsiva.</p>
             </div>
 
             <nav className='menu'>
