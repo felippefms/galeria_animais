@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/galeria_animais/static/css/main.60902fee.css",
-    "main.js": "/galeria_animais/static/js/main.72b11275.js",
+    "main.js": "/galeria_animais/static/js/main.ecf824f6.js",
     "static/media/peixepalhaco.png": "/galeria_animais/static/media/peixepalhaco.4269d6960013cad533d8.png",
     "static/media/iguana.jpg": "/galeria_animais/static/media/iguana.a84f9ff76b3e85e315c7.jpg",
     "static/media/tartaruga.jpg": "/galeria_animais/static/media/tartaruga.ca439be104205f0ef8ad.jpg",
@@ -56,10 +56,10 @@
     "static/media/sula.jpg": "/galeria_animais/static/media/sula.5f1f43ee91bde270c66f.jpg",
     "index.html": "/galeria_animais/index.html",
     "main.60902fee.css.map": "/galeria_animais/static/css/main.60902fee.css.map",
-    "main.72b11275.js.map": "/galeria_animais/static/js/main.72b11275.js.map"
+    "main.ecf824f6.js.map": "/galeria_animais/static/js/main.ecf824f6.js.map"
   },
   "entrypoints": [
     "static/css/main.60902fee.css",
-    "static/js/main.72b11275.js"
+    "static/js/main.ecf824f6.js"
   ]
 }
