@@ -20,6 +20,8 @@ function Header(){
                     <Link to='/Terrestres' className='menu-link'>TERRESTRES</Link>
                     <Link to='/Voadores' className='menu-link'>VOADORES</Link>
                     <Link to='/Aquaticos' className='menu-link'>AQUÁTICOS</Link>
+                    <Link to='/Dashboard' className='menu-link'>Dashboard</Link>
+                    <Link to='/Devicelist' className='menu-link'>DeviceList</Link>
             </nav>
         </div>
     )
